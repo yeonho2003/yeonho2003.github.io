@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <title>park list</title>
+    <style>
+        body{
+        background:linear-gradient(to bottom,white 30% ,rgb(191, 255, 174) 90%);
+        background-color: rgb(174, 248, 153);
+        background-size: cover;
+        }
+  
+
+@font-face {
+    font-family: 'CookieRunOTF-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Black00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.title-font{
+    font-family: 'CookieRunOTF-Black';
+    font-weight: bold;
+    font-size: 680%;
+    text-align: center;
+    line-height: 1;
+    padding:1px;
+    color: black;
+    text-shadow:7px -7px 5px #93ffac;
+    margin-left: 20px;
+}
+    .menu{
+        width:200px;
+        height:186px;
+        float: right;
+        margin-right: 200px;
+        margin-top: 0.1px;
+        border:0px solid green;
+        border-radius : 40px;
+    }
+        header{
+            width:1903px;
+            height: 180px;
+            margin-top:10px;
+            margin-right: 10px;
+         
+            border:0px solid  red;
+        }
+        section{
+            width:1890px;
+            height: 698px;
+            margin-top:10px;
+            margin-right: 10px;
+            border:solid 0px green;
+        }
+        .green_box1 {
+            
+            background-image: url("./images/namsan.jpg");
+            display: block;
+            border:solid 5px #8b5747e0;
+            width:500px;
+            height:250px;
+            float: right;
+            margin:40px 62px;
+            margin-right:58px ;
+            border-radius : 50px;
+           
+        }
+        .green_box1:hover{
+            opacity: 0.5;
+            background-clip: padding-box;
+
+        }
+        
+        .green_box2 {
+            
+            background: url("./images/northforest.jpg");
+            background-size: cover;
+            background-position: 0px ;
+            background-repeat: no-repeat;
+            display: block;
+            border:solid 5px #8b5747e0;
+            width:500px;
+            height:250px;
+            float: right;
+            margin:40px 62px;
+            margin-right:58px ;
+            border-radius : 50px;
+        }
+        .green_box2:hover{
+            opacity: 0.5;
+        }
+        .green_box3 {
+            background: url("./images/sunyudo.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            display: block;
+            border:solid 5px #8b5747e0;
+            width:500px;
+            height:250px;
+            float: right;
+
+            margin:40px 62px;
+            margin-right:58px ;
+            border-radius : 50px;
+        }
+        .green_box3:hover{
+            opacity: 0.5;
+        }
+        .green_box4 {
+            background: url("./images/seoul.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            display: block;
+            border:solid 5px #8b5747e0;
+            width:500px;
+            height:250px;
+            float: right;
+            margin:40px 62px;
+            margin-right:58px ;
+            border-radius : 50px;
+        }
+        .green_box4:hover{
+            opacity: 0.5;
+        }
+        .green_box5 {
+
+         
+            background: url("./images/skyforest.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            display: block;
+            border:solid 5px #8b5747e0;
+            width:500px;
+            height:250px;
+            float: right;
+            margin:40px 62px;
+            margin-right:58px ;
+            border-radius : 50px;
+        }
+        .green_box5:hover{
+            opacity: 0.5;
+        }
+        .green_box6 {
+           
+            background: url("./images/riverforest.jpg");
+            display: block;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            border:solid 5px #8b5747e0;
+            width:500px;
+            height:250px;
+            float: right;
+            margin:40px 62px;
+            margin-right:58px ;
+            border-radius : 50px;
+            padding-bottom: -100px ;
+        }
+        .green_box6:hover{
+            opacity: 0.5;
+        }
+        .clear{
+            clear: left;
+        }
+      
+        #fon{
+            opacity: 0;
+            position: absolute;
+            text-align: center;
+        }
+        .photo:hover #fon{
+            text-align: center;
+            font-size: 500%;
+            opacity: 1;
+            font-family:'CookieRunOTF-Black';
+            padding-left: 110px;
+            padding-bottom: 120px;
+        }
+        #fon2{
+            opacity: 0;
+            position: absolute;
+            text-align: center;
+        }
+        .photo:hover #fon2{
+            text-align: center;
+            font-size: 500%;
+            opacity: 1;
+            font-family:'CookieRunOTF-Black';
+            padding-left: 117px;
+            margin-top: 50px;
+        }
+        #fon3{
+            opacity: 0;
+            position: absolute;
+            text-align: center;
+            
+        } .photo:hover #fon3{
+            text-align: center;
+            font-size: 500%;
+            opacity: 1;
+            font-family:'CookieRunOTF-Black';
+            padding-left: 80px;
+            margin-top: 50px;
+        }
+        #fon4{
+            opacity: 0;
+            position: absolute;
+            text-align: center;
+            
+        }
+        .photo:hover #fon4{
+            text-align: center;
+            font-size: 500%;
+            opacity: 1;
+            font-family:'CookieRunOTF-Black';
+            padding-left: 150px;
+            margin-top: 70px;
+        }
+        #fon5{
+            opacity: 0;
+            position: absolute;
+            text-align: center;
+            
+        }
+        .photo:hover #fon5{
+            text-align: center;
+            font-size: 500%;
+            opacity: 1;
+            font-family:'CookieRunOTF-Black';
+            padding-left: 115px;
+            margin-top: 48px;
+        }
+        #fon6{
+            opacity: 0;
+            position: absolute;
+            text-align: center;
+            
+        }
+        .photo:hover #fon6{
+            text-align: center;
+            font-size: 500%;
+            opacity: 1;
+            font-family:'CookieRunOTF-Black';
+            padding-left: 105px;
+            margin-top: 44px;
+        }
+
+
+       
+        .img{
+           width:100%;
+           height:100%;
+           object-fit:cover;
+           border-radius : 46px;
+           z-index: 1;
+        }
+     
+       
+
+     
+    </style>
+</head>
+<body>
+   
+    <header>
+       
+        <h1 class="title-font" class="font-line">PARK MAP</h1>
+     
+    </header>
+    <section>
+        <a href="mainphoto.html"><div class="photo"><div class="img"><div class="green_box1"><p id="fon">남산공원</p></div></div></div></a>
+        <a href="mainphoto.html"><div class="photo"><div class="green_box2"><div class="img"><p id="fon2">북서울숲</p></div></div></div></a>
+        <a href="mainphoto.html"><div class="photo"><div class="green_box3"><div class="img"><p id="fon3">선유도공원</p></div></div></div></a>
+        <a href="mainphoto.html"><div class="photo"><div class="green_box4" class="clear"><div class="img"><p id="fon4">서울숲</p></div></div></div></a>
+        <a href="mainphoto.html"><div class="photo"><div class="green_box5"><div class="img"><p id="fon5">하늘공원</p></div></div></div></a>
+        <a href="mainphoto.html"><div class="photo"><div class="green_box6"><div class="img"><p id="fon6">한강공원</p></div></div></div></a>
+     </section> 
+</body>
+</html>

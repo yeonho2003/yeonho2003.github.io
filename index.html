@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>park map</title>
+    <style>
+    @font-face {
+    font-family: 'CookieRunOTF-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Black00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+        .tile{
+            width: 100%;
+            height: 100%;
+        }
+        #body1{
+            
+           background-repeat: no-repeat;
+           background-image: url(./images/background.jpg);
+           background-size: cover;
+           height:920px ;
+        }
+        title1{
+            border: 0px solid rgb(217, 255, 0);
+            width:400px;
+            height:100px;
+            position: absolute;
+           
+            top:30px;
+            left:735px;
+            padding-left: 35px;
+            font-size: 400%;
+            padding-bottom: 50px;
+            text-align: center;
+
+            font-family: 'CookieRunOTF-Black';
+            font-weight: bolder;
+            background-repeat: no-repeat;
+            
+        }
+    
+        menu{
+            border: 3px solid rgb(0, 0, 0);
+            width:1200px;
+            height:100px;
+            position: absolute;
+            top:130px;
+            background-color: white;
+            left:338px;
+          
+          
+        }
+        main{
+            border: 3px solid rgb(0, 0, 0);
+            width:900px;
+            height:500px;
+            float: left;
+            margin-left:330px;
+            margin-top:255px;
+            background-color: white;
+            padding-left: 0px;
+        }
+        main2{
+            border: 3px solid rgb(0, 0, 0);
+            width:320px;
+            height:500px;
+            position: absolute;
+            top:262px;
+            left:1257px;
+            background-color: white;
+
+        }
+        bottom{
+            border: 3px solid rgb(0, 0, 0);
+            width:1242px;
+            height:160px;
+            position:absolute;
+            top:865px;
+            transform: translate(-50%,-50%);
+            left:960px;
+            margin: auto;
+            background-color: white;
+        }
+        .menu-font{
+            display: inline;
+            font-family:'CookieRunOTF-Black' ;
+            font-size: 25px;
+            text-align: center;
+            margin-left: 144px;
+            position: relative;
+            top:30px;
+        }
+        .menu-font:hover{
+            background-color: rgb(182, 238, 229);
+            font-size: 35px;
+        }
+        .menu{  
+            background-size: contain;
+        }
+        .to{
+            float: right;
+            font-size: 15.5px;
+            margin-right: 20px;
+           font-weight: bold;
+            background-clip: content-box;
+
+        }
+        img{
+            width:20%;
+            height:70%;
+            margin-top: 5px;
+            padding: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(12, 139, 133);
+        }
+       
+    </style>
+
+</head>
+<body id="body1">
+    <div>
+    <title1>
+       PARK MAP
+    </title1>
+    </div>
+    <div>
+    <menu>
+           
+            <a href="https://map.naver.com/" target="_blank"> <div class="menu-font">네이버지도</a></div>
+            <a href="http://parks.seoul.go.kr/" target="_blank"> <div class="menu-font">공식사이트</a></div>
+            <a href="main.html" target="_blank"><div class="menu-font">정보보기</a></div>
+            <a href="photo123.html" target="_blank"><div class="menu-font">사진보기</a></div>
+        
+    </menu>
+</div>
+    <div>
+    <main>
+        <iframe src="target1.html" name="left" width="100%" height="100%" frameborder="0" ></iframe>
+    </main>
+</div>
+    <div>
+    <main2>
+        <iframe src="menu.html" name="right" width="100%" height="100%" frameborder="0" ></iframe>
+    </main2>
+</div>
+    <div>
+    <bottom>
+    <img src="./images/seoulrogo.png">
+    <img src="./images/enviroment.jpg">
+    <img src="./images/naver.jpg">
+    <div class="to">
+        <p>주식회사 : yeonho company</p>
+        <p>대표: 이연호</p>
+        <p>전화번호: 01056086977</p>
+        <P>광고문의: 02-1234-5678</P>
+    </div>
+
+    </bottom></div>
+
+</body>
+</html>
